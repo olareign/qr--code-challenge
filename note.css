@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.content {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 345px;
+  padding: 15px;
+  font-family: "outline", sans-serif;
+}
+
+.bar-code {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.bold-text {
+  font-weight: 400;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 10px 30px 10px;
+  color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 375px) {
+}
